@@ -54,7 +54,7 @@ function Footer() {
       </div>
       <section >
           <div className='social-icons' data-aos-duration='1000' data-aos-once='true'>
-          <small className='website-rights'>Web Design & SEO By <a href='https://www.softgenics.in' style={{textDecoration:'none', color:'blue',fontWeight:'700'}}>Sofgtenics</a></small>
+          <small className='website-rights'>Web Design & SEO By - <a href='https://www.digicircal.com/' style={{textDecoration:'none', color:'blue',fontWeight:'600'}}>Digicircal</a> & <a href='https://www.softgenics.in' style={{textDecoration:'none', color:'blue',fontWeight:'600'}}>Sofgtenics</a></small>
           </div>
       </section>
     </div>
