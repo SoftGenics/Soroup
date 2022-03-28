@@ -1,0 +1,112 @@
+.navbar {
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.navbar-bg {
+    background-color: aliceblue;
+    opacity: 0.9;
+
+}
+.navbar-nav .nav-link {
+    color:rgb(255, 38, 38) !important;
+    padding: 1rem !important;
+    font-weight: 700;
+    font-size: 18px;
+    font-family:sans-serif;
+    transition: all 0.4s ease 0s;
+
+    
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline 3px blue;
+    text-underline-position: under;
+}
+
+.navbar img {
+    width: 300px;
+    height: 200px;
+    transition: all 0.4s ease 0s;
+}
+.navbar-size img {
+    width: 200px;
+    height: 100px;
+    transition: all 0.4s ease 0s;
+}
+.navbar-nav .nav-link > a {
+    text-decoration: none !important;
+    
+    color:red !important;
+}
+.navbar-nav .nav-link:hover{
+    transform: scale(1.01);
+
+}
+.navbar-light .navbar-toggler {
+    border:  none !important;
+  }
+  .navbar-light .navbar-toggler:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .navbar .dropdown-menu {
+      background-color: black;
+      border: 1px solid white;
+  }
+  .navbar .dropdown-menu  .dropdown-item {
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+  
+  }
+  .dropdown-menu  .dropdown-item:hover{
+    color:rgb(247, 43, 43) !important;
+    text-decoration: underline 3px blue;
+    text-underline-position: under;
+    background:none;
+  }
+  @media screen and (max-width: 960px) {
+    .navbar  {
+        background-color: rgb(17, 18, 19) !important;
+  
+        padding-left: 0rem;
+    }
+    .navbar img  {
+        width: 180px;
+        height: 100px;
+    }
+  }
+  @media (max-width: 992px) {
+   .navbar-collapse {
+            position: fixed;
+            top: 125px;
+            left: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            width: 75%;
+            height: 100%;
+            background-color: rgb(14, 12, 12);
+            
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        }
+    
+     .navbar-collapse.collapsing {
+            left: -75%;
+            transition: height 0s ease 0s;
+        }
+    
+    .navbar-collapse.show {
+            left: 0;
+            transition: left 300ms ease-in-out;
+        }
+  .nav-link  {
+            border-bottom: 1px solid rgb(92, 90, 90);
+            padding-bottom: 1rem;
+            padding-top: 0.5rem;
+        }
+    }

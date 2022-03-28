@@ -1,0 +1,285 @@
+/*--------IMPORTS AND DISTRIBUTION CSS---------------*/
+.bg-container{
+    background: url('/public/images/spice-dark.jpg') center center/cover no-repeat;
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+ overflow: hidden;
+ padding: 4rem;
+  
+
+}
+.bg-container .spices-masala .container {
+  overflow: hidden;
+}
+.spices-masala
+{
+  margin-top:0rem;
+  
+}
+.spices-masala  h1 {
+    margin-top:3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: aliceblue;
+    text-decoration: underline crimson;
+}
+/*.spices-masala  h1::after {
+    content: "";
+    position: relative;
+    width: 21%;
+    height: 4px;
+    background-color: red;
+    left: 37rem;
+    top:0x;
+    bottom: -10px;
+    display: block;
+}
+*/
+.spices-masala  h2 {
+    text-align: center;
+    color: red;
+    font-weight: 800;
+    font-size: 80px;
+    text-shadow: 6px -1px 2px #CECCCA;
+}
+.spices-masala .card 
+{
+margin-top:5%;
+  -webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+border-radius:15px;
+border:none;
+  background-color:white;
+  
+}
+
+
+.spices-masala .btn 
+{
+opacity:0;  
+position:absolute;
+left:50%;
+top: 110%;
+ transform: translate(-50%, -50%);
+ box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0);
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+border-radius: 10px;
+padding:0.8rem 1.7rem;
+border:none;
+font-weight:bold;
+}
+
+.spices-masala .card:hover .btn
+{
+opacity:1;
+top: 100%;
+ box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.spices-masala .card:hover
+{
+box-shadow: 0 4px 18px 0 rgba(0,0,0,0.7);
+
+}
+
+.spices-masala h5
+{
+text-align: center;
+position: absolute;
+left:50%;
+top: 50%;
+transform: translate(-50%, -50%);
+font-size: 2.7rem;
+text-shadow: 1px 1px 2px black;
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+}
+
+.spices-masala .card:hover h5
+{
+opacity:1;
+  font-size: 3rem;
+  color: rgb(248, 45, 45) !important;
+}
+
+.spices-masala .btn:hover 
+{
+color:white;
+border:none;
+}
+
+.spices-masala div.col-12:nth-child(1) > .card:nth-child(1) > .btn:nth-child(3):hover
+{
+background-color:Navy;
+}
+
+.spices-masala div.col-12:nth-child(2) > .card:nth-child(1) > .btn:nth-child(3):hover
+{
+  background-color:SeaGreen;
+}
+
+.spices-masala div.col-12:nth-child(3) > .card:nth-child(1) > .btn:nth-child(3):hover
+{
+  background-color: PaleVioletRed;
+}
+
+.spices-masala .card img
+{
+filter:blur(0px);
+  -webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+border-radius:15px;
+height: 40vh;
+}
+
+.spices-masala .card:hover img
+{
+filter:blur(3px);
+}
+/*-------TRANDING AND CONTRACTING CSS --------------------*/
+.trade-container-bg {
+    background: url('/public/images/industry-bg.jpg') center center/cover no-repeat;
+   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+   height: 200vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+   object-fit: contain;
+   
+}
+.trade-container {
+    max-width: 50% !important;
+    background-color: #fff;
+    margin-top: 10rem;
+    position: sticky;
+    overflow: hidden;
+    margin-bottom: 10rem;
+
+}
+.trade-container .card{
+  transition: all 0.4s ease 0s !important;
+}
+.trade-container .card:hover {
+  transform: scale(1.01) !important;
+}
+
+@media screen and (max-width: 960px) {
+  .trade-container-bg {
+    height: 280vh;
+  }
+  .bg-container {
+    height: 250vh;
+  }
+  .trade-container {
+    max-width: 100% !important;
+    
+  }
+  .spices-masala  h2 {
+    font-size: 50px;
+  }
+}
+
+/* MIDEAST PRODUCTS */
+.mideast-container-grocery{
+  background: url('/public/images/groc.jpg') center center/cover no-repeat;
+/* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+height: 100%;
+width: 100%;
+box-sizing: border-box;
+overflow: hidden;
+}
+.mideast-container-grocery .mideast-wraper .card img {
+  height: 60vh;
+}
+.mideast-container-bg{
+    background: url('/public/images/bgimg.jpg') center center/cover no-repeat;
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.mideast-container {
+  margin-top: 16rem;
+}
+.mideast-container h1 {
+  text-align: center;
+  color: red;
+  font-weight: 800;
+  font-size: 60px;
+  text-shadow: 6px -1px 2px #CECCCA;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.mideast-wraper {
+  padding: 1rem;
+
+}
+.mideast-wraper .card img {
+  height: 60vh;
+}
+.mideast-wraper .card {
+  transition: all 0.3s ease 0s;
+  padding: 1rem;
+}
+.mideast-wraper .card:hover
+{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transform: scale(1.01);
+}
+.mideast-wraper h4 {
+  background-color: red;
+  position: absolute;
+  margin-top: 3rem;
+  color: #fff;
+  padding: 0 0.5rem 0 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 16px;
+}
+.pages-container {
+  margin-top: 10rem;
+}
+.pages-container h1 {
+  color:  rgb(59, 59, 59)!important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under; 
+}
+
+.pages-wraper {
+  padding: 2rem !important;
+}
+.pages-card {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 0.5rem !important;
+  transition: all 0.2s ease 0s;
+}
+.pages-card:hover {
+  transform: scale(1.02);
+}
+.pages-wraper .card-img-top{
+  height: 40vh !important;
+}
