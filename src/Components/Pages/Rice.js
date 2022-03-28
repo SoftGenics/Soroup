@@ -13,7 +13,7 @@ function MideastProduct() {
             <h4>Rice</h4>
                 <Card.Img variant="top" src="images/mideast/Azeema-10kg-product.jpeg" />
                 <Card.Body>
-                    <Card.Title>Azeema Parboilrd Rice</Card.Title>
+                    <Card.Title>Azeema Parboiled Rice</Card.Title>
                 </Card.Body>
                 </Card>
             </Col>
