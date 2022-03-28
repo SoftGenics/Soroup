@@ -16,7 +16,7 @@ function Footer() {
           <p data-aos='fade-up' data-aos-duration='1000' data-aos-once='true' className='footer-subscription-heading'></p>
           <p>Soroup tarding Co. Ltd</p>
           <i data-aos='fade-up' data-aos-duration='1000' data-aos-once='true' className="fas fa-map-marked-alt"/>
-          <p  data-aos='fade-up' data-aos-duration='1000' data-aos-once='true' style={{ fontSize:'20px'}}>P.O. BOX 41233, Riyadh 11521<br></br>Kingdom soudi Arabia</p>
+          <p  data-aos='fade-up' data-aos-duration='1000' data-aos-once='true' style={{ fontSize:'20px'}}>P.O. BOX 41233, Riyadh 11521<br></br>Kingdom saudi Arabia</p>
    
         <br></br>
         <i data-aos='fade-up' data-aos-duration='1000' data-aos-once='true' className="fas fa-mouse "  style={{color:'blue', fontSize:'30px'}}/>
