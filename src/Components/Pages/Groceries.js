@@ -13,7 +13,7 @@ function MideastProduct() {
             <h4>Groceries</h4>
                 <Card.Img variant="top" src="images/mideast/CMP-1KG-product.jpg" />
                 <Card.Body>
-                    <Card.Title>Coconut Milk Powder 1kg</Card.Title>
+                    <Card.Title>Coconut Milk Powder</Card.Title>
                 </Card.Body>
                 </Card>
             </Col>
@@ -22,7 +22,7 @@ function MideastProduct() {
             <h4>Groceries</h4>
                 <Card.Img variant="top" src="images/mideast/ASAFOETIDA.jpeg" />
                 <Card.Body>
-                    <Card.Title>Compund Asafoetida Powder</Card.Title>
+                    <Card.Title>COMPOUNDED ASAFOETIDA POWDER</Card.Title>
                 </Card.Body>
                 </Card>
             </Col>
@@ -42,7 +42,7 @@ function MideastProduct() {
             <h4>Groceries</h4>
                 <Card.Img variant="top" src="images/mideast/Soya-ball.png" />
                 <Card.Body>
-                    <Card.Title>Soya Balls</Card.Title>
+                    <Card.Title>Soya Ball</Card.Title>
                 </Card.Body>
                 </Card>
             </Col>
@@ -51,7 +51,7 @@ function MideastProduct() {
             <h4>Groceries</h4>
                 <Card.Img variant="top" src="images/mideast/Dried-red-chilli.png" />
                 <Card.Body>
-                    <Card.Title>Red Dried Chilli</Card.Title>
+                    <Card.Title>Dried Red Chilli</Card.Title>
                 </Card.Body>
                 </Card>
             </Col>
