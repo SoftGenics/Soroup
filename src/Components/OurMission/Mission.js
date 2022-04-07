@@ -6,7 +6,6 @@ function Mission() {
     <div>
     <Container style={{marginTop:'5rem', textAlign:'center'}} className='msn-vsn-container'>
         <h1 className='mb-5'>Mission AND <span style={{color:'red'}}>VISION</span></h1>
-        <p>Formed in the year 1990, continuing to expand its marketing capabilities to become the leading importer & distributor of FMCG & non food products in the Kingdom of Saudi Arabia.</p>
         <p><span style={{fontSize:'40px', fontWeight:'700', color:'red'}}>S</span>oroup trading will be focussed on delivering services tailored to
             meet the needs of Individual industries, End Users & Importers.
             Our mission is to deliver value-added services which exceed our
